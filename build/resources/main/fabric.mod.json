@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "farma-kasy",
+  "version": "1.0",
+
+  "name": "Farma Kasy Minestar",
+  "description": "opis",
+  "authors": [
+    "NG5M"
+  ],
+  "contact": {
+    "homepage": "discord:plruda",
+    "sources": "discord:plruda"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/farma-kasy/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.ng5m.MainClient"
+    ]
+  },
+  "mixins": [
+    "farma-kasy.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+
+  "accessWidener": "farma-kasy.accesswidener",
+
+  "suggests": {
+    "another-mod": "*"
+  },
+
+  "custom": {
+    "modmenu:clientsideOnly": true,
+    "modmenu:api": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.ng5m.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ChatScreenMixin",
+    "ClientConnectionMixin",
+    "HandledScreenMixin",
+    "ScreenMixin",
+    "SignEditScreenMixin",
+    "SleepingChatScreenMixin",
+    "accessor.ClientConnectionAccessor",
+    "accessor.ScreenAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,5 @@
+v1	named	intermediary
+FIELD	dev/ng5m/mixin/HandledScreenMixin	Lnet/minecraft/screen/slot/Slot;	focusedSlot	field_2787
+METHOD	dev/ng5m/mixin/HandledScreenMixin	(II)Z	handleHotbarKeyPressed	method_2384
+METHOD	dev/ng5m/mixin/HandledScreenMixin	(Lnet/minecraft/screen/slot/Slot;IILnet/minecraft/screen/slot/SlotActionType;)V	onMouseClick	method_2383
+METHOD	dev/ng5m/mixin/ScreenMixin	(Lnet/minecraft/client/gui/Element;)Lnet/minecraft/client/gui/Element;	addDrawableChild	method_37063

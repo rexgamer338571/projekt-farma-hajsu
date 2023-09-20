@@ -1,0 +1,6 @@
+accessWidener   v1  named
+
+accessible  method  net/minecraft/client/gui/screen/Screen addDrawableChild (Lnet/minecraft/client/gui/Element;)Lnet/minecraft/client/gui/Element;
+accessible method net/minecraft/client/main/Main getOption (Ljoptsimple/OptionSet;Ljoptsimple/OptionSpec;)Ljava/lang/Object;
+accessible method net/minecraft/client/main/Main isNotNullOrEmpty (Ljava/lang/String;)Z
+accessible method net/minecraft/client/main/Main toOptional (Ljava/lang/Integer;)Ljava/util/OptionalInt;
